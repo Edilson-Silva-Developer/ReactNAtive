@@ -34,3 +34,25 @@ function movendoMouse() {
 
     console.log("Voce esta movendo o mouse");
 }
+//onclick
+function onClick(){
+
+    console.log("Voce clicou no botão");
+   
+
+   
+}
+
+function onClick2(){
+
+    console.log("Você cliclou no botão3")
+
+}
+
+//context menu
+
+function botaoDireito(){
+
+    console.log("Voce clico com o botão direito");
+    return false;
+}
