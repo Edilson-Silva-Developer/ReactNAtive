@@ -1,4 +1,4 @@
-console.log(7 > 6 && 7 == 7); // para ser tru, os dois lados da comparação precisar ser true.
+console.log(7 > 6 && 7 == 7); // para ser true, os dois lados da comparação precisar ser true.
 
 console.log(5 > 6 || 3 == 3); // para ser teru, basta um dos lados da compração ser true.
 
