@@ -17,6 +17,11 @@ console.log("Edilson Antonio");// com aspas duplas
 console.log('Edilson silva');//com aspas simples.
 console.log(`Edilson`);//backticks nas string funciona normal
 
+console.log(1989);
+console.log(1.150);
+console.log((3 * (12 + 4)) / 8 );
+
+
 
 //String com concatenação, espaços, pulando linhas.
 console.log("Ola\ \ mundo\nHelo World");
@@ -43,6 +48,7 @@ console.log(5 === 5);//indentico
 
 console.log(7 > 5 && 77 == 77); // para ser true ambos os lados tem que ser true
 console.log(8 == 8 || 8 == 11);//para ser true um dos lados tem que ser true.
+console.log(8 == 7 || 8 == 11);//para ser true um dos lados tem que ser true.
 console.log("Edilson" == "Edilson" && "Julaina" == "Julaina");//ambos as String são iguais com isso o resultado true.
 console.log(!"Edilson" == "Edilson" && "Julaina" == "Julaina");//inverte os resultado mesmo sendo true se torna false
 
@@ -52,13 +58,17 @@ console.log(10 > 20 ? 'É sim ' : 'É não');
 console.log(5 < 8 ? 'É sim' : 'É não');
 console.log(10 >= 22 ? 'É sim' : 'É nao');
 console.log(200 <= 300 ? 'É sim' : 'É não');
-console.log(44 == 4 ? 'É sim' : 'Não' );
-console.log( 50 != 55 ? 'sim' : 'Não');
-console.log("Edilson" === "Edilson" ? 'SIM':'Não');
-console.log( 10>9 && 20 ==20 ? 'verdadeiro':'falso');
-console.log( 10>11 || 20 ==2 ? 'verdadeiro':'falso');
+console.log(44 == 4 ? 'É sim' : 'Não');
+console.log(50 != 55 ? 'sim' : 'Não');
+console.log("Edilson" === "Edilson" ? 'SIM' : 'Não');
+console.log(10 > 9 && 20 == 20 ? 'verdadeiro' : 'falso');
+console.log(10 > 11 || 20 == 2 ? 'verdadeiro' : 'falso');
 
 //conversão de tipos de dados automaticos
 
 console.log("10" + 1);
 console.log("50" - 4);
+
+
+//NaN
+console.log(500 * "Não é numero");
