@@ -7,5 +7,5 @@ let menorNumero = Math.min(2,5,88,55);//Menor numero
 let arendondar = Math.round(5.2934723);//arendodamento a numeração
     console.log(arendondar);
 
-let arendondarCima = Math.round(5.9858);//arendodamento para cima 
+let arendondarCima = Math.ceil(5.9858);//arendodamento para cima 
     console.log(arendondarCima);

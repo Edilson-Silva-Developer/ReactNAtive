@@ -55,3 +55,21 @@ let suaIdade = prompt("Qual a sua idade ? ");
 
 let qualSeuNome = prompt("Qual o seu nome ?");
     console.log(`Ola ${qualSeuNome}, seja bem vindo.`);
+
+//alerta no navegador 
+
+alert("Vamos Estudar cada dia mais!");
+
+//função math para numeração minimo, maximo, aredodamento
+
+let numeroMax= Math.max(55,22,66,88,78,65,22);
+    console.log(`Qual o numero maximo é: ${numeroMax}`);
+
+let numeroMini = Math.min(1,2,5,66,4,0.2,);
+    console.log(`O numero minimo é: ${numeroMini}`);
+
+let numeArend= Math.round(2.239854);
+    console.log(`Aredondamento do numera: ${numeArend}`);
+
+let numeArendUp= Math.ceil(6.256745);
+    console.log(`Arendodar para cima: ${numeArendUp}`);
