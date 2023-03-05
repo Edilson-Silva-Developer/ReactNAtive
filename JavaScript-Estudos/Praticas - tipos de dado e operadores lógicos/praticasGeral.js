@@ -153,3 +153,4 @@ let numeArend= Math.round(2.239854);
 let numeArendUp= Math.ceil(6.256745);
     console.log(`Arendodar para cima: ${numeArendUp}`);
 
+console.log("Teste");
