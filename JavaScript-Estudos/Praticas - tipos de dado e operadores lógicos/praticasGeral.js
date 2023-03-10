@@ -19,7 +19,7 @@ console.log(`Edilson`);//backticks nas string funciona normal
 
 console.log(1989);
 console.log(1.150);
-console.log((3 * (12 + 4)) / 8 );
+console.log((3 * (12 + 4)) / 8);
 
 
 
@@ -44,6 +44,7 @@ console.log(10 <= 11);//menor que ou igual
 console.log(10 == 11);//igual
 console.log(10 != 1);//diferente
 console.log(5 === 5);//indentico 
+console.log(5 !== 5);//não indentico 
 
 
 console.log(7 > 5 && 77 == 77); // para ser true ambos os lados tem que ser true
@@ -130,10 +131,10 @@ console.log(breakNome);
 // funcção prompt recebe um imput do usuario que guarda informação, essa função é pouco ultiliada.
 
 let suaIdade = prompt("Qual a sua idade ? ");
-    console.log(`A sua idade é ${suaIdade}`);
+console.log(`A sua idade é ${suaIdade}`);
 
 let qualSeuNome = prompt("Qual o seu nome ?");
-    console.log(`Ola ${qualSeuNome}, seja bem vindo.`);
+console.log(`Ola ${qualSeuNome}, seja bem vindo.`);
 
 //alerta no navegador 
 
@@ -141,16 +142,16 @@ alert("Vamos Estudar cada dia mais!");
 
 //função math para numeração minimo, maximo, aredodamento
 
-let numeroMax= Math.max(55,22,66,88,78,65,22);
-    console.log(`Qual o numero maximo é: ${numeroMax}`);
+let numeroMax = Math.max(55, 22, 66, 88, 78, 65, 22);
+console.log(`Qual o numero maximo é: ${numeroMax}`);
 
-let numeroMini = Math.min(1,2,5,66,4,0.2,);
-    console.log(`O numero minimo é: ${numeroMini}`);
+let numeroMini = Math.min(1, 2, 5, 66, 4, 0.2,);
+console.log(`O numero minimo é: ${numeroMini}`);
 
-let numeArend= Math.round(2.239854);
-    console.log(`Aredondamento do numera: ${numeArend}`);
+let numeArend = Math.round(2.239854);
+console.log(`Aredondamento do numera: ${numeArend}`);
 
-let numeArendUp= Math.ceil(6.256745);
-    console.log(`Arendodar para cima: ${numeArendUp}`);
+let numeArendUp = Math.ceil(6.256745);
+console.log(`Arendodar para cima: ${numeArendUp}`);
 
 console.log("Teste");

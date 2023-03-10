@@ -9,6 +9,9 @@ while(numero < 100){
     numero +=10;
 }
 
+
+
+
 for( let i = 0; i < 10; i++){//crementando
     console.log("O i é " + i);
 }

@@ -7,19 +7,19 @@ for (let i = 0; i < 100; i = i + 3) {
 }
 
 
-for (let n = 2; n < 100; n = n +2) {
+for (let n = 2; n < 100; n = n + 2) {
 
     console.log(`o numero é: ${n}`);
 }
 
 
 
-for( let x = 10; x > 0; x = x - 1){
+for (let x = 10; x > 0; x = x - 1) {
 
     console.log(` O X é: ${x}`);
 }
 
-for (let y =0; y <=10; y = y +1){
+for (let y = 0; y <= 10; y = y + 1) {
 
     console.log(`o numero de y é: ${y}`)
 }

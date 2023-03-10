@@ -1,26 +1,28 @@
 let idade = 18;
 
-    if(idade == 18){
+if (idade == 18) {
 
-        console.log("A idade é maior de +18");
-    }
+    console.log("A idade é maior de +18");
+}
 
-    if(idade < 25){
+if (idade < 25) {
 
-        console.log("Acesso restrito");
-    }
+    console.log("Acesso restrito");
+}
 
-let nome ="Edilson";
 
-    if(nome == "Edilson" && idade > 17){
-        
-        console.log("Liberado o Acesso!");
-    }
+
+let nome = "Edilson";
+
+if (nome == "Edilson" && idade > 17) {
+
+    console.log("Liberado o Acesso!");
+}
 
 
 let passaporte = true;
 
-    if((nome == "Edilson" && idade > 30) || passaporte == true){
+if ((nome == "Edilson" && idade > 30) || passaporte == true) {
 
-        console.log("Aprovado");
-    }
+    console.log("Aprovado");
+}
