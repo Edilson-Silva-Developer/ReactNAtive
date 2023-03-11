@@ -70,6 +70,12 @@ let numeroCima = Math.ceil(8.665135);
 console.log(`Arendondamento para cima ${numeroCima}`);
 
 
+
+
+
+//>>>>>>>Os exemplos abaixo seguem com a função prompt<<<<<<
+ 
+
 //função prompt da um imput para o ussuario guarda a informação, o usuario adiciona a informação a qual o prompt solicita
 //podemos no final adicionar um alert constando os dados do usuario.
 let sueNome = prompt("Digite o seu nome: ");
@@ -79,12 +85,11 @@ console.log(`A sua idade é: ${suaIdade}`);
 let seuCpf = prompt("Digite o seu CPF:");
 console.log(`O seu CPF é: ${seuCpf}.`);
 
-alert(`Seu dados foram coletados. \n nome: ${sueNome} \n idade: ${suaIdade}
- \n CPF: ${seuCpf} \n se seus dados estiverem correto, confirme no OK.`);
+alert(`Seu dados foram coletados. \n nome: ${sueNome} \n idade: ${suaIdade} \n CPF: ${seuCpf} \n se seus dados estiverem correto, confirme no OK.`);
 
 
 
-//função IF liberação de entrada.
+//função IF liberação de entrada maior de idade.
 let maiorIdade = prompt("Digite a sua idade:");
 
 if (maiorIdade <= 17) {
@@ -96,15 +101,17 @@ if (maiorIdade >= 18) {
     alert("Entrada Liberada");
 }
 
+
 //exemplo de esle lombada eletronica
 let velocidade = prompt("Qual a velocidade que você passou na lombada:");
-    if(velocidade <=80){
-        console.log(`Sua velocidade foi ${velocidade}, você não foi multado`);
-        alert(`Sua velocidade foi ${velocidade}, você não foi multado.`);
-    }else{
-        console.log(`Sua velocidade foi ${velocidade}, você foi multado.`);
-            alert(`Sua velocidade foi ${velocidade}, você foi multado.`);
-    }
+if (velocidade <= 80) {
+    console.log(`Sua velocidade foi ${velocidade}, você não foi multado`);
+    alert(`Sua velocidade foi ${velocidade}, você não foi multado.`);
+} else {
+    console.log(`Sua velocidade foi ${velocidade}, você foi multado.`);
+    alert(`Sua velocidade foi ${velocidade}, você foi multado.`);
+}
+
 
 //podemos libera o acesso confirmando o nome do usuario e sua idade, 
 //nesse exemplo usamos if e else com o prompt e alert
@@ -112,10 +119,87 @@ let velocidade = prompt("Qual a velocidade que você passou na lombada:");
 let nomeEntrada = prompt("Digite seu nome: ");
 let seuCpfEntrada = prompt("Digite seu CPF: ");
 
-if(nomeEntrada == "Edilson","edilson" && seuCpfEntrada == "08126433485"){
+if (nomeEntrada == "Edilson", "edilson" && seuCpfEntrada == "08126433485", "081.264.334-85") {
     console.log("Acesso liberado");
     alert("Acesso Liberado");
-}else{
+} else {
     console.log("Acesso Negado")
     alert("Acesso Negado.");
+}
+
+
+//comparação de idade de cristo, com a idade exato 
+let numeroS = prompt("Digite a sua idade");
+
+if (numeroS <= 32) {
+    console.log("Ainda Falta alguns anos");
+    alert("Ainda Falta alguns anos");
+} else if (numeroS == 33) {
+    console.log("Idade de Cristo");
+    alert("Idade de Cristo");
+} else {
+    console.log("Já Passou!");
+    alert("Já passou!")
+
+}
+
+
+//2 formar de loop WHILE, FOR resumido, com incrementação
+let x = 10;
+
+while (x > 0) {
+    console.log("O X é: " + x);
+    x -= 1;
+}
+
+
+for (let y = 10; y > 0; y--) {//incrementação 
+    console.log(`O Y é:  ${y}`);
+
+}
+
+
+
+
+//exemplo de break ele pausa aonde o numero foi informado, com incrementação
+for (let c = 0; c < 10; c++) {//incrementação 
+    if (c == 9) {
+        console.log("Pular");
+        break;
+
+    }
+    console.log("O C é: " + c);
+}
+
+
+
+//exemplo de continue ele faz a contagem o numero referenciado informa a menssagem e depois continua, com decrementação
+
+for (let i = 10; i > 0; i--) {//incrementação 
+
+    if (i == 2) {
+        console.log("Caiu no continue");
+        continue;
+    }
+    console.log(i);
+}
+
+//lista confirmação de nome, caso não tenha na lista a entrada não libera
+let nomeAnalise = prompt("Digite seu nome: ");
+
+switch (nomeAnalise) {
+    case "Edilson":
+        console.log("O nome é Edilson");
+        alert("O nome é Edilson");
+        break;
+    case "Juliana":
+        console.log("O nome é Juliana");
+        alert("O nome é Juliana");
+        break;
+    case "Antonio":
+        console.log("O nome é Antonio");
+        alert("O nome é Antonio");
+    default:
+        console.log("O nome não esta na lista")
+        alert("O nome não esta na lista");
 }

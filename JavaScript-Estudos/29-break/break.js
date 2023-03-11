@@ -16,7 +16,7 @@ for (let x = 0; x < 11; x = x + 1){
         nome = "Edilson";
     }
 
-    if( x == 10 && nome == "Edilson"){
+    if( x == 9 && nome == "Edilson"){
         console.log("O nome é Edilson, pode parar");
         break;
     }
