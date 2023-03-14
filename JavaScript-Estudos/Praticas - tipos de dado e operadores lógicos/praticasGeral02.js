@@ -1,3 +1,36 @@
+for (let q = 0; q <= 50; q++) {
+
+    if (q % 2 == 0) {
+        console.log(`O numero ${q} é par`);
+    } else {
+        console.log(`O numero ${q} é impar`);
+    }
+}
+//numero primo
+
+let numPrimo = prompt("Digite o numero primo");
+let divisoes = 0;
+
+for( let o = 1; o <= numPrimo; o ++){
+
+    if (numPrimo % o ==0){
+
+        divisoes++;
+    }
+}
+if(divisoes == 2){
+    console.log(`o numero ${numPrimo} é primo`);
+    alert(`o numero ${numPrimo} é primo`);
+}else{
+    console.log(`O numero ${numPrimo} não é primo`);
+    alert(`O numero ${numPrimo} não é primo`);
+}
+
+
+
+
+
+
 //Operações matematicas.
 console.log(8 - 2);
 console.log(25 % 2);
@@ -74,7 +107,7 @@ console.log(`Arendondamento para cima ${numeroCima}`);
 
 
 //>>>>>>>Os exemplos abaixo seguem com a função prompt<<<<<<
- 
+
 
 //função prompt da um imput para o ussuario guarda a informação, o usuario adiciona a informação a qual o prompt solicita
 //podemos no final adicionar um alert constando os dados do usuario.
@@ -100,6 +133,26 @@ if (maiorIdade >= 18) {
     console.log("Entrada Liberada");
     alert("Entrada Liberada");
 }
+
+let idadeCnh = prompt("Digite a sua idade");
+let numeroCnh = prompt("Voce tem CNH");
+
+if (idadeCnh <= 17) {
+    console.log("Não é habilitado, porque você é menor de idade");
+    alert("Não é habilitado, porque você é menor de idade");
+
+} else if (idadeCnh >= 18 && numeroCnh == "Sim") {
+    console.log("Sim, pode dirigir");
+    alert("Sim, pode dirigir");
+
+} else if (idadeCnh >= 18 && numeroCnh == "Não") {
+    console.log("É maior de idade, mais não é habilitado");
+    alert("É maior de idade, mais não é habilitado");
+}
+
+
+
+
 
 
 //exemplo de esle lombada eletronica
@@ -203,3 +256,12 @@ switch (nomeAnalise) {
         console.log("O nome não esta na lista")
         alert("O nome não esta na lista");
 }
+
+//potencia elevada ao quadrado
+
+const num = 18;
+
+console.log(Math.pow(2, 2));
+console.log(Math.pow(3, 2));
+console.log(Math.pow(num, 2));
+
