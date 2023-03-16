@@ -1,17 +1,35 @@
-function imprimirNoConsole() {
+function imprimirNoConsole() {//função normal
     console.log("Teste de Função");
 } imprimirNoConsole();
 
 
 
+function numeroCasa() {
+    console.log("Numero da casa 26");
+} numeroCasa();
 
-function imprimirUmNumero(num) {
+
+
+
+
+
+
+function imprimirUmNumero(num) {//função com parametro 
     console.log("O numero é: " + num);
 }
 imprimirUmNumero(1966);
 imprimirUmNumero(1968);
 imprimirUmNumero(1989);
 imprimirUmNumero(1990);
+
+
+function somaDoNumero(n1, n2, n3) {
+    return n1 + n2 - n3;
+} console.log(somaDoNumero(100, 100, 200));
+
+
+
+
 
 
 
@@ -22,6 +40,9 @@ const numeroAleatorio = function () {
 numeroAleatorio();
 numeroAleatorio();
 numeroAleatorio();
+
+
+
 
 
 
@@ -40,6 +61,7 @@ console.log("O valor é: " + mult);
 
 
 //cnh
+
 function podeDirigir(idade, cnh) {
     if (idade >= 18 && cnh == true) {
         console.log("Pode dirigir");
