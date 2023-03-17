@@ -237,6 +237,17 @@ for (let i = 10; i > 0; i--) {//incrementação
     console.log(i);
 }
 
+
+//potencia elevada ao quadrado
+
+const num = 18;
+
+console.log(Math.pow(2, 2));
+console.log(Math.pow(3, 2));
+console.log(Math.pow(num, 2));
+
+
+
 //lista confirmação de nome, caso não tenha na lista a entrada não libera
 let nomeAnalise = prompt("Digite seu nome: ");
 
@@ -257,11 +268,4 @@ switch (nomeAnalise) {
         alert("O nome não esta na lista");
 }
 
-//potencia elevada ao quadrado
-
-const num = 18;
-
-console.log(Math.pow(2, 2));
-console.log(Math.pow(3, 2));
-console.log(Math.pow(num, 2));
 
