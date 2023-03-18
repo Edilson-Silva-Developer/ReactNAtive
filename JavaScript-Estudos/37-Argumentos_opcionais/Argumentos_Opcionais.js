@@ -18,10 +18,8 @@ console.log(soma(10,2));
 function saudacao( nome, idade){
     if(idade === undefined){
         console.log("Olá " + nome);
-        alert("Olá " + nome);
     }else{
         console.log("Olá "+ nome + " você temm " + idade + " anos");
-        alert("Olá "+ nome + " você temm " + idade + " anos");
     }
 }
 saudacao("Edilson");
