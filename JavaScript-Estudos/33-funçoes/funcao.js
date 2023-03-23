@@ -11,9 +11,6 @@ function numeroCasa() {
 
 
 
-
-
-
 function imprimirUmNumero(num) {//função com parametro 
     console.log("O numero é: " + num);
 }
@@ -23,12 +20,11 @@ imprimirUmNumero(1989);
 imprimirUmNumero(1990);
 
 
+
+
 function somaDoNumero(n1, n2, n3) {
     return n1 + n2 - n3;
 } console.log(somaDoNumero(100, 100, 200));
-
-
-
 
 
 
@@ -40,9 +36,6 @@ const numeroAleatorio = function () {
 numeroAleatorio();
 numeroAleatorio();
 numeroAleatorio();
-
-
-
 
 
 
