@@ -1,3 +1,5 @@
+
+
 for (let q = 0; q <= 50; q++) {
 
     if (q % 2 == 0) {
@@ -11,17 +13,17 @@ for (let q = 0; q <= 50; q++) {
 let numPrimo = prompt("Digite o numero primo");
 let divisoes = 0;
 
-for( let o = 1; o <= numPrimo; o ++){
+for (let o = 1; o <= numPrimo; o++) {
 
-    if (numPrimo % o ==0){
+    if (numPrimo % o == 0) {
 
         divisoes++;
     }
 }
-if(divisoes == 2){
+if (divisoes == 2) {
     console.log(`o numero ${numPrimo} é primo`);
     alert(`o numero ${numPrimo} é primo`);
-}else{
+} else {
     console.log(`O numero ${numPrimo} não é primo`);
     alert(`O numero ${numPrimo} não é primo`);
 }
@@ -133,6 +135,7 @@ if (maiorIdade >= 18) {
     console.log("Entrada Liberada");
     alert("Entrada Liberada");
 }
+
 
 let idadeCnh = prompt("Digite a sua idade");
 let numeroCnh = prompt("Voce tem CNH");
@@ -269,3 +272,19 @@ switch (nomeAnalise) {
 }
 
 
+//loop for de 100 ate 50 decrementando 
+for (let f = 100; f >= 50; f--) {
+    console.log(f);
+}
+
+
+//numeros par e impar
+
+for (let d = 0; d <= 50; d++) {
+
+    if (d % 2 == 0) {
+        console.log(`Numero par: ${ d }`);
+    } else {
+        console.log(`Numero impar   ${ d }`);
+    }
+}
