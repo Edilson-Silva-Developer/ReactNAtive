@@ -1,14 +1,23 @@
-const multplicarPorDois = (x)=>{
+const multplicarPorDois = (x)=>{ // versão normal 
     return x * 2;
 }
 console.log(multplicarPorDois(2));
 
 
-
-
-const multiplicarPorDois2 = x => x * 10;
+const multiplicarPorDois2 = x => x * 10;//versão mais reduzida
 
 console.log(multiplicarPorDois2(4));
+
+
+//soma
+const somarNumero = (b)=>{
+    return b + 10;
+}
+console.log(somarNumero(22));
+
+const somarNumero2 = c => c + 60;
+    console.log(somarNumero2(22));
+
 
 
 

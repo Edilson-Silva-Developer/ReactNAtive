@@ -15,7 +15,7 @@ console.log(soma(10,2));
 
 
 
-function saudacao( nome, idade){
+function saudacao ( nome, idade){
     if(idade === undefined){
         console.log("Olá " + nome);
     }else{

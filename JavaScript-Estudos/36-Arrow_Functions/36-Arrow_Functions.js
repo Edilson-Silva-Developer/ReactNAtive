@@ -14,6 +14,7 @@ let div = (c, d) => {
     return c / d;
 }; console.log(div(1989, 1990));
 
+
 let multp = (e, f) => {
     return e * f;
 }; console.log(multp(1989, 1990));

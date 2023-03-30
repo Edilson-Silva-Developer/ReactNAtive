@@ -1,7 +1,4 @@
-
 //separado por blocos nos escopos
-
-
 //multiplicação
 let a = 50;
 
@@ -20,8 +17,6 @@ function multplicar(x, y) {
 }
 console.log(a);
 multplicar(10, 2);
-
-
 
 
 
@@ -46,7 +41,6 @@ somar(5, 2);
 
 
 
-
 //subtração
 let g = 50;
 function Subt(u, k) {
@@ -55,6 +49,7 @@ function Subt(u, k) {
     if (g > 4) {
 
         let g = 700;
+        g++;
 
         console.log(g);
     }
@@ -62,7 +57,6 @@ function Subt(u, k) {
 }
 console.log(g);
 Subt(100, 5);
-
 
 
 
@@ -81,3 +75,22 @@ function div(h, w) {
 }
 console.log(f)
 div(500, 2);
+
+
+
+
+let b = 2000;
+  function somas(i,p){
+    let b = i + p;
+
+    if (b < 50000){
+
+        let b = 0.1;
+        b++;
+            console.log(b)
+    }
+    console.log(b);
+  }
+  console.log(b);
+
+    somas(1,1);
