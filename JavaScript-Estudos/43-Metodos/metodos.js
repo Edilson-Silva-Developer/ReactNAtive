@@ -13,7 +13,9 @@ console.log(typeof marca2.toLocaleUpperCase);
 
 
 
-    //exemplo de propriedades e metodo
+
+
+//exemplo de propriedades e metodo
 
 //string.propriedade
-//string.metodo()
+//string.metodos()  - metodo tambem é uma função 
