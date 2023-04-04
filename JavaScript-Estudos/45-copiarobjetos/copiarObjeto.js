@@ -1,4 +1,4 @@
-//copiando objetos - com assign
+//copiando objetos - com assign - *Podemos copiar todas as propriedades de um objetos para outro
 
 let carro = {
 

@@ -2,9 +2,9 @@
 
 let obj = {
 
-    'chave1': 1,
-    'chave2': 2,
-    'chave3': 3,
+    chave1: 1,//chave e valor da propriedade
+    chave2: 2,
+    chave3: 3,
 
 }
 
