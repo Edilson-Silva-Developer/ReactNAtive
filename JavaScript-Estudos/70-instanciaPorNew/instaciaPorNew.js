@@ -17,3 +17,22 @@ function Cachorro(raca,patas,cor){
     let Dachshund = new Cachorro("Dachshund", 4 , "Preto");
         console.log(Dachshund);
         Dachshund.latir();
+
+
+
+
+function pcGamer(placaM, memoria, fonte, cooler, processador){
+
+    this.placaM = placaM;
+    this.memoria = memoria;
+    this.fonte = fonte;
+    this.cooler = cooler;
+    this.processador =processador;
+    this.waterColler = function(){
+        console.log("Water Coller Aigo")
+    }
+}
+
+let xeon = new pcGamer("Killser","Kilser - DDR4 16GB", "ElectroV2","GMR_Rgb","E5-2640-V3");
+    console.log(xeon);
+        xeon.waterColler();
