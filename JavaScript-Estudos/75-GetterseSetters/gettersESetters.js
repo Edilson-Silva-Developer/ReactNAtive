@@ -22,3 +22,32 @@ console.log(pastor);
 
 pastor.setCor = "Marron";//altera o objeto por meio set
 console.log(pastor.getCor);//e puxou o valor por meio do get
+
+
+
+
+
+
+
+class carros{
+    constructor(marca,portas,motor,cor){
+
+        this.marca=marca;
+        this.portas=portas;
+        this.motor=motor;
+        this.cor=cor;
+
+    }
+    get getCor(){
+        return this.cor;
+    }
+    set setCor(cor){
+        this.cor = cor;
+    }
+}
+
+let celta = new carros("Celta",4,4,"Sem cor");
+    console.log(celta);
+
+celta.setCor = "Prata";
+    console.log(celta.getCor);
