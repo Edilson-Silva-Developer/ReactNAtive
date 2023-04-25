@@ -1,4 +1,4 @@
-//consjunto
+//consjunto verificar se uma frase ou string tem numeros
 
 const reg1 = /[12346789]/;
 
