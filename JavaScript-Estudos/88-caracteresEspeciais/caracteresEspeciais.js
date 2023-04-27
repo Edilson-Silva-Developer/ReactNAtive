@@ -58,7 +58,7 @@ const SRegex = /\S/;//carcteres que não seja espaço em branco, aonde tiver esp
     console.log(SRegex.test("1989"));
 
 
-const pontoRegex = /./;//qualquer caractere, meno nova linha, aceita quel tipo
+const pontoRegex = /./;//qualquer caractere, meno nova linha, aceita qualquer tipo
 
     console.log('.')
     console.log(pontoRegex.test("asd"));

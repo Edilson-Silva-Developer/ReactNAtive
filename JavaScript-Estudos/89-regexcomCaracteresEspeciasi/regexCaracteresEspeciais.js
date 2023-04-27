@@ -8,7 +8,7 @@ const dia = /\d\d/;//verificar se tem 2 digitos numericos
     console.log(dia.test("add1"));
 
 
-    const dias = /\d\d/;//verificar se tem 2 digitos numericos, validação de lenfth para ser direto no digito dia.
+    const dias = /\d\d/;//verificar se tem 2 digitos numericos, validação de lenfth para ser direto no digito dia que tem 2 digitos
 
     console.log(dias.test("2019") && "2019".length == 2);
     console.log(dias.test("asd"));
