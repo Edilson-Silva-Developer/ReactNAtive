@@ -1,6 +1,6 @@
 //Caracteres Expeciais
 
-const dRegex = /\d/;//Qualque dígito de caracters, aonde tiver numero ele aceita
+const dRegex = /\d/;//Qualque dígito de caracters, aonde tiver numero ele aceita, qualquer digito de caractere
     console.log('d')
     console.log(dRegex.test("asd"));
     console.log(dRegex.test("  "));
@@ -8,7 +8,7 @@ const dRegex = /\d/;//Qualque dígito de caracters, aonde tiver numero ele aceit
     console.log(dRegex.test("123asdf"));
 
 
-const wRegex = /\w/;//Um carctere alfanumerico, aonde tiver qualquer digito é permitido
+const wRegex = /\w/;//Um carctere alfanumerico, aonde tiver qualquer digito é permitido, um caractere alfanumerico
     console.log('w')
     console.log(wRegex.test("asd"));
     console.log(wRegex.test("  "));
@@ -16,7 +16,7 @@ const wRegex = /\w/;//Um carctere alfanumerico, aonde tiver qualquer digito é p
     console.log(wRegex.test("123asdf"));
 
 
-const sRegex = /\s/;//Qualquer carcteres de espaço em branco, aonde tiver espaço em branco ele deixa
+const sRegex = /\s/;//Qualquer carcteres de espaço em branco, aonde tiver espaço em branco ele deixa, qualquer carctere de espaço em, branco 
     console.log('s')
     console.log(sRegex.test("asd"));
     console.log(sRegex.test("  "));
@@ -25,7 +25,7 @@ const sRegex = /\s/;//Qualquer carcteres de espaço em branco, aonde tiver espa�
     console.log(sRegex.test("Edilson   Antonio"));
 
 
-const DRegex = /\D/;//Caracteres que não são digitos, aonde tiver numero ele não permiti
+const DRegex = /\D/;//Caracteres que não são digitos, aonde tiver numero ele não permiti, caracteres que não são digitos
     console.log('D')
     console.log(DRegex.test("asd"));
     console.log(DRegex.test("  "));
@@ -36,7 +36,7 @@ const DRegex = /\D/;//Caracteres que não são digitos, aonde tiver numero ele n
 
 
 
-const WRegex= /\W/;//caracteres não alfanumerico, só permitie string.
+const WRegex= /\W/;//caracteres não alfanumerico, só permitie string, carctere nã- alfanumérico
 
     console.log('W')
     console.log(WRegex.test("asd"));
@@ -47,7 +47,7 @@ const WRegex= /\W/;//caracteres não alfanumerico, só permitie string.
     console.log(WRegex.test("1989"));
 
 
-const SRegex = /\S/;//carcteres que não seja espaço em branco, aonde tiver espaço ele não deixa
+const SRegex = /\S/;//carcteres que não seja espaço em branco, aonde tiver espaço ele não deixa, caratere que não seja espaçõ em branco 
 
     console.log('S')
     console.log(SRegex.test("asd"));
@@ -58,7 +58,7 @@ const SRegex = /\S/;//carcteres que não seja espaço em branco, aonde tiver esp
     console.log(SRegex.test("1989"));
 
 
-const pontoRegex = /./;//qualquer caractere, meno nova linha, aceita qualquer tipo
+const pontoRegex = /./;//qualquer caractere, meno nova linha, aceita qualquer tipo, qualquer caractere, menos nova linha 
 
     console.log('.')
     console.log(pontoRegex.test("asd"));
